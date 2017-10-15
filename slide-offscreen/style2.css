@@ -1,0 +1,28 @@
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    
+}
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+}
+
+.animated{
+    transition-timing-function: ease-in-out;
+    transition: transform 0.3s;
+    
+}
+.slideshow-image-container img{
+    display: none;
+}
+
+#slideshow_image_container .active{
+    display: block;
+}

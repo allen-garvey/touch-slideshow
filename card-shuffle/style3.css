@@ -1,0 +1,21 @@
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow-image-container img{
+    display: none;
+}
+
+#slideshow_image_container .active{
+    display: block;
+}

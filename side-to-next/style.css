@@ -1,0 +1,30 @@
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    
+}
+.slideshow-container{
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+}
+
+
+.slideshow-image-container{
+    display: flex;
+}
+
+.slideshow-image-container.animated{
+    transition-timing-function: ease-in-out;
+    transition: transform 0.8s;
+    
+}
+.slideshow-image-container img{
+    margin-right: 40px;
+}
